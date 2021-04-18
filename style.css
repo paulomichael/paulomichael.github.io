@@ -1,0 +1,71 @@
+#nome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#descricao {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+        background-color: #52b69a;
+}
+b {
+    font-style: initial;
+    text-decoration: underline;
+}
+i {
+    font-style: oblique;
+    font-weight: 700;
+}
+.tamanho1 {
+    font-size: 3em;
+}
+.tamanho2 {
+    font-size: 2.7em;
+}
+.tamanho3 {
+    font-size: 2.4em;
+}
+.tamanho4 {
+    font-size: 2em;
+}
+.tamanho5 {
+    font-size: 1.7em;
+}
+.tamanho6 {
+    font-size: 1.4em;
+}
+.tamanho7 {
+    font-size: 1em;
+}
+.nome {
+    text-align: center;
+}
+.foto {
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(40,40,40);
+}
+.descricao {
+    margin: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.habilidades {
+    padding: 3em;
+    margin: auto;
+}
+.link-pra-foto {
+    margin: auto;
+    padding: 1em;
+
+}
+.favoritos {
+    margin: auto;
+    padding: 2em;
+
+}
+
+.habilidades li:nth-child(odd) {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}

@@ -5,49 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
-    <style>
-        #nome {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        #descricao {
-            font-family: 'Times New Roman', Times, serif;
-        }
-        body {
-             background-color: #52b69a;
-        }
-        b {
-            font-style: initial;
-            text-decoration: underline;
-        }
-        i {
-            font-style: oblique;
-            font-weight: 700;
-        }
-        .tamanho1 {
-            font-size: 3em;
-        }
-        .tamanho2 {
-            font-size: 2.7em;
-        }
-        .tamanho3 {
-            font-size: 2.4em;
-        }
-        .tamanho4 {
-            font-size: 2em;
-        }
-        .tamanho5 {
-            font-size: 1.7em;
-        }
-        .tamanho6 {
-            font-size: 1.4em;
-        }
-        .tamanho7 {
-            font-size: 1em;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <!--
 Seu Portfólio Web deve ter as seguintes informações:
@@ -61,8 +20,19 @@ Um link externo para algum blog de que você goste, que abra em uma nova aba;
 Partes do seu portfólio destacadas com negrito e/ou itálico;
 Um índice com links internos para as diferentes seções do seu portfólio.
 -->
+<!--
+Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
 
-    <h3>Índice interno</h3>
+Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+A descrição deve ficar ao lado da foto;
+Centralize seu nome na página;
+Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+Adicione margin e padding nos elementos que julgar necessário;
+Coloque estilo somente nos itens ímpares da lista das suas habilidades.
+-->
+
+    <div class="indice">
+        <h3>Índice interno</h3>
     <ul>
         <li><a href="#nome">Nome</a></li>
         <li><a href="#foto">Foto</a></li>
@@ -70,17 +40,25 @@ Um índice com links internos para as diferentes seções do seu portfólio.
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#favoritos">Site favorito</a></li>
     </ul>
-    <br><br>
+    </div>
     
-    <h2 id="nome">Paulo Michael Schweigert Pereira</h2>
+    <div class="nome">
+        <h2 id="nome">Paulo Michael Schweigert Pereira</h2>
+    </div>
 
-    <img src="foto.jpg" alt="Foto Paulo" width="200px" id="foto">
+    <div class="container">
+    <div class="foto">
+        <img src="foto.jpg" alt="Foto Paulo" width="200px" id="foto">
+    </div>
 
-    <h3 id="descricao">Breve descrição</h3>
+    <div class="descricao">
+        <h3 id="descricao">Breve descrição</h3>
     <p><b>Tryber</b> que curte <b>JavaScript</b>, <b>pizza</b> e <b>tecnologia em geral</b>.<br><i>Brasileiro</i> do <i>Rio Grande do Sul</i>, residindo em <i>Porto Alegre</i>.</p>
-    <br><br>
+    </div>
+</div>
     
-    <h3 id="habilidades">Habilidades/Afinidades
+    <div class="habilidades">
+    <h3 id="habilidades">Habilidades
     </h3>
     <ul>
         <li class="tamanho1">Linux</li>
@@ -91,14 +69,17 @@ Um índice com links internos para as diferentes seções do seu portfólio.
         <li class="tamanho6">Idiomas humanos</li>
         <li class="tamanho7">Engenhocas em geral</li>
     </ul>
-
+    </div>
+    
+    <div class="link-pra-foto">
     <!-- Perdão pela piadinha, hehehe-->
     <a href="#foto"> <em> Aprecie com moderação XD</em></a>
-    <br><br>
+    </div>
 
+    <div class="favoritos">
     <h3 id="favoritos">Site que curto</h3>
     <a href="https://www.betrybe.com/" target="_blank">Vem pra a <b>Trybe</b>!</a>
-    <br><br>
+    </div>
  
 </body>
 </html>
