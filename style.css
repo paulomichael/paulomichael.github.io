@@ -24,7 +24,7 @@ body {
     color: var(--color-text);
 }
 img {
-    width: 35%;
+    width: 7rem;
     border-radius: 50% 0;
     box-shadow: 2px 2px var(--color-a), -3px -3px var(--color-b);
     color: lanwgreen
