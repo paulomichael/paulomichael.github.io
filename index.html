@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,78 +10,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!--
-Seu Portfólio Web deve ter as seguintes informações:
+    <header class="main-header">
+        <!-- <h3>Paulo</h3> -->
+        <div class="foto">
+            <img src="foto.jpg" alt="Foto Paulo" width="200px" id="foto">
+        </div>
+        <ul>
 
-Seu nome completo;
-Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
-Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
-Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha;
-Um link interno para a sua foto;
-Um link externo para algum blog de que você goste, que abra em uma nova aba;
-Partes do seu portfólio destacadas com negrito e/ou itálico;
-Um índice com links internos para as diferentes seções do seu portfólio.
--->
-<!--
-Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
+            <li><a href="#nome">Nome</a></li>
+            <li><a href="#foto">Foto</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#favoritos">Site favorito</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="main-wrapper">
+            <div class="nome">
+                <h2 id="nome">Paulo Michael Schweigert Pereira</h2>
+            </div>
 
-Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
-A descrição deve ficar ao lado da foto;
-Centralize seu nome na página;
-Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
-Adicione margin e padding nos elementos que julgar necessário;
-Coloque estilo somente nos itens ímpares da lista das suas habilidades.
--->
+            <div class="container">
 
-    <div class="indice">
-        <h3>Índice interno</h3>
-    <ul>
-        <li><a href="#nome">Nome</a></li>
-        <li><a href="#foto">Foto</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#favoritos">Site favorito</a></li>
-    </ul>
-    </div>
-    
-    <div class="nome">
-        <h2 id="nome">Paulo Michael Schweigert Pereira</h2>
-    </div>
+            <div class="descricao">
+                <h3 id="descricao">Breve descrição</h3>
+            <p><b>Tryber</b> que curte <b>JavaScript</b>, <b>pizza</b> e <b>tecnologia em geral</b>.<br><i>Brasileiro</i> do <i>Rio Grande do Sul</i>, residindo em <i>Porto Alegre</i>.</p>
+            </div>
+        </div>
+            
+            <div class="habilidades">
+            <h3 id="habilidades">Habilidades
+            </h3>
+            <ul>
+                <li class="tamanho1">Linux</li>
+                <li class="tamanho2">Shell</li>
+                <li class="tamanho3">Git</li>
+                <li class="tamanho4">HTML</li>
+                <li class="tamanho5">CSS</li>
+                <li class="tamanho6">Idiomas humanos</li>
+                <li class="tamanho7">Engenhocas em geral</li>
+            </ul>
+            </div>
+            
+            <div class="link-pra-foto">
+            <!-- Perdão pela piadinha, hehehe-->
+            <a href="#foto"> <em> Aprecie com moderação XD</em></a>
+            </div>
 
-    <div class="container">
-    <div class="foto">
-        <img src="foto.jpg" alt="Foto Paulo" width="200px" id="foto">
+            <div class="favoritos">
+            <h3 id="favoritos">Site que curto</h3>
+            <a href="https://www.betrybe.com/" target="_blank">Vem pra a <b>Trybe</b>!</a>
+            </div>
     </div>
-
-    <div class="descricao">
-        <h3 id="descricao">Breve descrição</h3>
-    <p><b>Tryber</b> que curte <b>JavaScript</b>, <b>pizza</b> e <b>tecnologia em geral</b>.<br><i>Brasileiro</i> do <i>Rio Grande do Sul</i>, residindo em <i>Porto Alegre</i>.</p>
-    </div>
-</div>
-    
-    <div class="habilidades">
-    <h3 id="habilidades">Habilidades
-    </h3>
-    <ul>
-        <li class="tamanho1">Linux</li>
-        <li class="tamanho2">Shell</li>
-        <li class="tamanho3">Git</li>
-        <li class="tamanho4">HTML</li>
-        <li class="tamanho5">CSS</li>
-        <li class="tamanho6">Idiomas humanos</li>
-        <li class="tamanho7">Engenhocas em geral</li>
-    </ul>
-    </div>
-    
-    <div class="link-pra-foto">
-    <!-- Perdão pela piadinha, hehehe-->
-    <a href="#foto"> <em> Aprecie com moderação XD</em></a>
-    </div>
-
-    <div class="favoritos">
-    <h3 id="favoritos">Site que curto</h3>
-    <a href="https://www.betrybe.com/" target="_blank">Vem pra a <b>Trybe</b>!</a>
-    </div>
- 
+ </main>
 </body>
 </html>
