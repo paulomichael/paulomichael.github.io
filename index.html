@@ -25,35 +25,77 @@
     </header>
     <main class="main">
         <div class="main-wrapper">
+
+            <!--     Seção "Sobre mim" e Hobbies       -->
             <div class="sobre-mim">
-                <h2 id="sobre-mim">Sobre mim</h2>
+                <h3 id="sobre-mim">Sobre mim</h3>
+                    <p><b>Humano</b> que curte <b>programação</b>, <b>pizza</b> e <b>tecnologias em geral</b>.<br><i>Brasileiro</i> do <i>Rio Grande do Sul</i>, residindo em <i>Ijuí</i>.</p>
+            <ul> Hobbies:
+                <li>Linux</li>
+                <li>Shell</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Engenhocas em geral</li>
+            </ul>
             </div>
 
             <div class="container">
 
+
+        <!--     Seção "Formação"       -->
             <div class="formacao">
                 <h3 id="descricao">Formação</h3>
-            <p><b>Humano</b> que curte <b>programação</b>, <b>pizza</b> e <b>tecnologias em geral</b>.<br><i>Brasileiro</i> do <i>Rio Grande do Sul</i>, residindo em <i>Ijuí</i>.</p>
+            <p> Estudante de Análise e Desenvolvimento de Sistemas pela Uninter</p>
             </div>
         </div>
-            
+
+        <!--     Seção "Portfólio"       -->
             <div class="portfolio">
             <h3 id="portfolio">Portfólio
             </h3>
-            <ul>
-                <li class="tamanho1">Linux</li>
-                <li class="tamanho2">Shell</li>
-                <li class="tamanho3">Git</li>
-                <li class="tamanho4">HTML</li>
-                <li class="tamanho5">CSS</li>
-<!--                 <li class="tamanho6">Idiomas humanos</li> -->
-                <li class="tamanho7">Engenhocas em geral</li>
-            </ul>
             </div>
 
+        <!--     Seção "Contato"       -->
             <div class="contato">
             <h3 id="contato">Contato</h3>
-<!--             <a href="https://www.betrybe.com/" target="_blank">Vem pra a <b>Trybe</b>!</a> -->
+             <form>
+                    <fieldset>
+                        <legend>Formulário de Contato</legend>
+                        
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input 
+                                type="text" 
+                                id="nome" 
+                                name="nome" 
+                                placeholder="Seu nome completo"
+                                required>
+                        </div>
+                        
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="seu.email@exemplo.com"
+                                required>
+                        </div>
+                        
+                        <div>
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea 
+                                id="mensagem" 
+                                name="mensagem" 
+                                rows="5" 
+                                placeholder="Digite sua mensagem aqui..."
+                                required></textarea>
+                        </div>
+                        
+                        <button type="submit">Enviar Mensagem</button>
+                    </fieldset>
+                </form>
             </div>
     </div>
  </main>
