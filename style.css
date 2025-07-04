@@ -29,21 +29,7 @@ img {
     box-shadow: 2px 2px var(--color-a), -3px -3px var(--color-b);
     color: lanwgreen
 }
-/* .color-a {
-    color: var(--color-a);
-}
-.color-b {
-    color: var(--color-b);
-}
-.color-c {
-    color: var(--color-c);
-}
-.color-d {
-    color: var(--color-d);
-}
-.color-e {
-    color: var(--color-e);
-} */
+
 .main-header {
     display: flex;
     background-color: var(--color-dark);
@@ -53,12 +39,9 @@ img {
 }
 
 .main-header .foto  {
-    /* color: var(--color-text); */
     flex-basis: 20%;
-    /* text-align: center; */
     margin: auto 5rem;
     align-self: center;
-    /* font-size: 3rem; */
     padding: 1.5rem 0;
 }
 
